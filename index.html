@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+   
+</head>
+
+<body>
+    <header class="bg-danger text-white text-center py-3">
+        <h1>Pokedex</h1>
+    </header>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Pocket Pokedex</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="#home">Home</a></li>                   
+                    <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>                                          
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>                                          
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Start of home section -->
+        <section id="home" class="text-center bg-light py-5"> <!-- p means padding y means top and 5 is the size -->
+            <h2>Welcome to your own personal Pokedex</h2>
+            <p>This is a simple Pokedex where you can view my favorite Pokemon.</p>
+            <a class="btn btn-primary btn-lg" href="https://www.pokemon.com/us/pokedex">Get Started</a>
+        </section>
+                <!-- Start of gallery -->
+        <div id="gallery" class="my-5"> <!-- M means margin, y means top and 5 is the size-->
+            <div class="row">
+                <!-- Start of card 1-->
+                <div class="card col-md-4"> <!--card column medium -->
+                    <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/716.png" class="card-img-top" alt="..."> 
+                    <div class="card-body">
+                        <h5 class="card-title">Xerneas #0716</h5>
+                        <p class="card-text">Legends say it can share eternal life. It slept for a thousand years in the form of a tree before its revival.</p>
+                        <a href="https://www.pokemon.com/us/pokedex/xerneas" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+
+                <!-- Start of card 2-->
+                <div class="card col-md-4">
+                    <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/1025.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Pecharunt #1025</h5>
+                        <p class="card-text">It feeds others toxic mochi that draw out desires and capabilities. Those who eat the mochi fall under Pecharunt’s control, chained to its will.</p>
+                        <a href="https://www.pokemon.com/us/pokedex/pecharunt" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+
+                <!-- Start of card 3-->
+                <div class="card col-md-4">
+                    <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/505.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Watchog #0505</h5>
+                        <p class="card-text">Using luminescent matter, it makes its eyes and body glow and stuns attacking opponents.</p>
+                        <a href="https://www.pokemon.com/us/pokedex/watchog" class="btn btn-primary">Learn More</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="text-center py-3 bg-dark text-white">
+        <div class="container text-center">
+            <p>Copyright &copy; 2022. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
